@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+/* setting specifications for class named 'loginbox' that we created in the index.html*/
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(247, 242, 242, 0.381);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.logo{
+    width:  70px;
+    height: 70px;
+    border-radius: 30%;
+    position: absolute;
+    top: -40px;
+    left: calc(60% - 60px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 23px;
+    font-family:'Bell MT';
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family:'Courier New';
+    font-size: 18px;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 40px;
+    color: #000;
+    font-size: 14px;
+    font-family:Arial;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 27px;
+    border-radius: 20px;
+    font-family: 'Agency FB';
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #fff;
+    color: #000; 
+}
+
+.loginbox h5{
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #000
+}
