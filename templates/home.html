@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Home </title>
+        <!-- changing placeholder specifications -->
+        <style>
+            ::placeholder{
+                color:black;
+                font-family:'Segoe UI';
+                font-style:italic            
+            }
+        </style>
+        <link rel="stylesheet" type ="text/css" href="{{url_for('static',filename='css/style2.css')}}">
+        <body background = "{{url_for('static',filename='images/img3.jpg')}}">
+            <div class="inputbox">
+                <h1> Enter Input Parameters </h1>
+                <form action="/predict" method="Post">
+                    <p> Age </p>
+                    <input type="text" name="Age" placeholder="Enter age"/>
+                    <p> Salary </p>
+                    <input type="text" name="Salary" placeholder="Enter estimated salary"/>
+                    <input type="submit" value="Predict" />
+                </form>
+            <div>
+        </body>
+    </head>
+</html>
+
