@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session, url_for
 
 app = Flask(__name__)
-app.secret_key='super secret key'
+app.secret_key='sample'
 
 # MySQL configuration
 app.config['MYSQL_HOST'] = 'localhost'
